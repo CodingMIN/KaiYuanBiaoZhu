@@ -1,0 +1,5 @@
+Output:Output the pairs of elements with the smallest difference. If there are multiple pairs,output   
+ all of them in ascending order , all on the same line (consecutively) with just a single space between each pair of numbers. If there's a number which lies in two pair, print it two times.
+输出:输出差最小的元素对。如果有多个对，则输出
+
+它们都是按升序排列的，都在同一行(连续的)上，每对数字之间只有一个空格。如果有一个数字在两对中，打印两次。
