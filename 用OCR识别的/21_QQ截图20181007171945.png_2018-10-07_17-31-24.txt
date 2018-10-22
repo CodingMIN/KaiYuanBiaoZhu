@@ -1,0 +1,4 @@
+﻿Main method for testing this class.
+@param argv the options
+public static void main(String argv)i
+run Clusterer (new Make Density Based(), argv);

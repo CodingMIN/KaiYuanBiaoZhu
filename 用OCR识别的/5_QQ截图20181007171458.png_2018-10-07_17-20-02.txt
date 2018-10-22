@@ -1,0 +1,13 @@
+﻿te Instances m theInstances;
+/s prior probabilities for the fitted clusters
+[][][
+/s discrete distributions fitted to each discrete attribute in each cluster
+DiscreteEstimator[][I m model;
+rivate double m minStdDev= 1e-6;
+The clu
+private Clusterer m_wrappedClusterer= new weka clusterers SimpleKMeans()
+private ReplaceMissingValues m_replaceMissing
+super()
+Contructs a MakeDensity Basedclusterer wrapping a given Clusterer
+s @param towrap the clusterer to wrap around
+Returns a string describing classifier

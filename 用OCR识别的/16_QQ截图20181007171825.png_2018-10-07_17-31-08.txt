@@ -1,0 +1,17 @@
+﻿4 @param m minimum value for standard deviation
+public void setMinStd Dev(double m)i
+m minstdDey=m
+Get the minimum allowable standard deviation
+@return the minumum allowable standard deviation
+return m minstdDev
+Returns an enumeration describing the available option
+@return an enumeration of all the available options
+blic Enumeration
+listoptionso)
+lector
+result new Vector
+result. add Element(new Option(
+"Itminimum allowable standard deviation for normal density computation
++"\n\t(default 1e-6),"M",
+result. addElement(new Option ("\cLusterer to wrap. \n+"\t(default
++defaultClusterer String()+"),"W,1," -W));

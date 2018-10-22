@@ -1,0 +1,16 @@
+﻿h()!=0)f
+setMinStdDev((new Double(optionString)). doubleValue())
+setMin Std Dev(1e-6)
+tring wString= Utils. getOption (W,, options)
+if (wString. length ()== 0)t
+wString= defaultClusterer String(
+setClusterer(AbstractClusterer forName (wString,
+Utils. partitionOptions(options)));
+super.setOptions(options)
+Utils. checkForRemaining Options(options);
+w Gets the current settings of the clusterer
+@return an array of strings suitable for passing to setOptions0
+blic sy
+Vector options
+options. add( -M")
+options. add ("+ getMinStdDev()):

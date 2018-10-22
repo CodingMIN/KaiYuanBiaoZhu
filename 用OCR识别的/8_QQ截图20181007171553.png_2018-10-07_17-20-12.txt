@@ -1,0 +1,24 @@
+﻿s @throws Exception if the clusterer hasn' t been set or something goes wron
+blic void buildClusterer(Instances data) throws Exception t
+getCapabilities().testWithFail(data);
+m i
+m_replaceMissing setlnput Format(data)
+data= weka. filters Filter use Filter (data, m replaceMissing):
+m theInstances
+stances(data, 0)
+if(m wrappedClusterer = null)i
+throw new Exception ("No clusterer has been set);
+}
+m model= new DiscreteEstimator[m wrappedClusterer numberOfClusters()][data
+numAttributesO]:
+m modelNormal new double [m wrappedClusterer numberOfClusters oi[data
+double[][] weights new double[m wrappedClusterer numberOfClusters o)][data
+numAttributes O]:
+m priors
+double [m wrappedClusterer numberOfClusterso)]
+for (int i =0; i< m wrappedClusterer numberOfClusters(; i++)i
+m_priors[i]= 1.0; / lapa
+(int j=0;j< data numAttributes(); j++)
+if (data attribute().isNominalo)i
+m model[i][]= new DiscreteEstimator(data attribute (j).num Values
+nstance inst = nu

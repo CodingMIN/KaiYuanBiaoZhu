@@ -1,0 +1,13 @@
+﻿w Options specific to clusterer weka clusterers simplekMeans
+number of clusters
+Display std. deviations for centroids
+Replace missing values with mean/mode
+Random number seed
+(default 10
+param options the list of options
+y of strings
+@th
+if an option is not supported
+@Override
+ic void setOptions(String options) throws Exception i
+String optionString Utils geto

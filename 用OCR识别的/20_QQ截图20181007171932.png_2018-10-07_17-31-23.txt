@@ -1,0 +1,17 @@
+﻿options. add
+options.add (getClusterer(). getClass(). getName O)
+if(m wrappedClusterer in
+of OptionHandler)
+String[ clustererOptions =((OptionHandler)m wrappedclusterer)
+.getoptions(;
+if (clustererOptions length >0)i
+options. add(--)
+Collections. addAll(options, clustererOptions)
+Collections.addAll(options, super. getOptions())
+return options. toArray(new String[o])
+F Returns the revision string
+@return the revision
+public String getRevision0 i
+m RevisionUtils extract($Revision$)
+Main method for testing this class.
+@param argv the options

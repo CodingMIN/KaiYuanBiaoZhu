@@ -1,0 +1,16 @@
+﻿m wrappedclusterer towrap
+ng wr
+@return the clusterer
+public Clusterer getClusterer0 i
+return m wrappedclustererj
+Returns the tip text for this property
+@return tip text for this property suitable for displaying inthe
+explorer/experimenter gui
+iblic String minStd DevTipTextO
+retum set minimum allowable standard deviation;
+Set the minimum value for standard deviation when calculating normal
+ensity. Reducing this value can help prevent arithmetic overflow resultin
+from multiplying large densities(arising from small standard deviations)
+when there are many singleton
+ar singleton values
+s @param m minimum value for standard deviation

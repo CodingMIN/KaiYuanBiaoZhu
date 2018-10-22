@@ -1,0 +1,17 @@
+﻿for (i =0; i< m wrappedClusterer numberOfClusters(; i++)i
+or (i
+if ( inst isMissing (j))i
+if(inst attribute(j).isNominalo)
+logprob + Math log(m_model[i][j]. getProbability(inst value (3)));
+logprob + logNormalDens (inst value(),m_mode lNormal[i][j][0]
+m_ modeINormal[1][][])
+wghts[i] logprob;
+/s Constant for normal distribution./
+private static double m_norm Const =0.5* Math. log(2*Math.PI
+Density function of normal distributio
+param x
+of distributi
+s @return the density
+private double logNormalDens(double x, double mean, double std Dev)i
+double diff =x-meani
+return -(diff diff /(2 stdDev stdDev ))-m normConst

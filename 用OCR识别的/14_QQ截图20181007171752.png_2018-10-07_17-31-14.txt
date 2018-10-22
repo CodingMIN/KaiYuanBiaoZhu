@@ -1,0 +1,13 @@
+﻿if (m theInstances. attribute (i).isNominalo)i
+l){
+text append (m_ model[j][i]. toString();
+textappend ("Normal Distribution. Mea
+Utils doubleToString(m_modelNormal[j][][o], 4)+"StdDev=
+Utils double ToString(m_modelNormal[j][i][1], 4)+\n");
+eturn text toString()
+Returns the tip text for this property
+@return tip text for this property suitable for displaying in the
+nter
+public String clusterer TipTexto
+retum"the clusterer to wrap
+k Sets the clusterer to wrap

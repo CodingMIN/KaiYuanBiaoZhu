@@ -1,0 +1,19 @@
+﻿public void setNum Clusters(int n) throws Exception
+if(m wrappedClusterer = null)i
+throw new Exception("Can t set the number of clusters to generate
++ 'no clusterer has been set yet.
+if(!(m wrappedClusterer instanceof NumberofClusters Requestable))i
+throw new Exception ("Can't set the number of clusters to generate
+wrapped clusterer does not support this facility. )
+((NumberofClustersRequestable)m wrappedClusterer) setNum Clusters(n)
+e clusterer(i.e, of the wrapper
+本c⊥ usterer)
+@return the capabilities of this clusterer
+f(m wrappedClusterer ! null)i
+return m wrappedclus
+apabilities
+per getCapabilities()
+result. enable( Capability. NO CLASS)
+retum result
+Builds a clusterer for
+s @param data the instances to train the clusterer with

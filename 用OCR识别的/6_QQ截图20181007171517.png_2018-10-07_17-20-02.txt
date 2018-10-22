@@ -1,0 +1,19 @@
+﻿Returns a string describing classifier
+return a description suitable for displaying in the explorer/experimente
+ublic String globalInfo0 i
+return "Class for wrapping a Clusterer to make it retum a distribution
++ and density. Fits normal distributions and discrete distributions
+within each cluster produced by the wrapped clusterer. Supports the
+NumberOfClustersRequestable interface only if the wrapped Clusterer
+String describing default clusterer
+@return the default clusterer classname
+protected String default ClustererString0 i
+retum SimpleKMeans class getName (
+Set the number of clusters to generate
+s @param n the number of clusters t
+ate
+@throws Exception if the wrapped clusterer has not been set
+plement this facility
+d setNum Clusters(int n) throws Exception t
+if(m wrappedClusterer = nul)i
+throw new Exception("Can t set the number of clusters to generate

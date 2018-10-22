@@ -1,0 +1,21 @@
+﻿eturns the number of clusters
+4 return the number of clusters generated for a training datase
+@throws Exception if number of cluste
+ould not be returned successfully
+@Override
+int numberofClusters0 throw
+retum m wrappedClusterer numberOfClustersO)
+k Returns a description of the clusterer
+@return a string containing a description of the clusterer
+public String toString t
+if(m priors = null)i
+return"No clusterer built yet
+StringBuffer text new String Buffer()
+ext append Make Density BasedClusterer: \n\ Wrapped clusterer:
+m_wrappedClusterer. toString()
+textappend ("\ Fitted estimators(with ML estimates of variance):\n")
+for (int j=0;j<m priors length; ++)i
+Prior probability.
++Utils. double ToString(m_priors[jl, 4)+"\n\n
+for(int i=0; i < m model[o].length; i++)
+text append("Attribute: +m_theInstances attribute (i).name ()+"\n")

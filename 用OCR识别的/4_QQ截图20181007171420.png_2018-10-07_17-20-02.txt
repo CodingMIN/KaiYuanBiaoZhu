@@ -1,0 +1,19 @@
+﻿Display std. deviations for centroids
+-M
+lues with mean/ mode
+Random number seed
+to th
+author Richard Kirkby(kirkby @cs. waikato. ac nz)
+@author Mark Hall (mall@cs. waikato. ac nz)
+@author Eibe Frank(eibe@cs. waikato. ac nz)
+Cversion rEvisions
+blic class Make Density Based Clusterer extends Abstract Density BasedClusterer
+implements NumberofClustersRequestable, OptionHandler,
+WeightedInstancesHandler t
+rx for serialization"/
+I long serialVersionUID
+543302427972186631L;
+/s holds
+Instances m theInstances;
+/* prior probabilities for the fitted clusters"/
+a prior

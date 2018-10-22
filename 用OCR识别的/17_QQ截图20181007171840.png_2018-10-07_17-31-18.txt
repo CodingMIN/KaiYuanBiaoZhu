@@ -1,0 +1,16 @@
+﻿result. addAll( Collections. list(super. listOptions()))
+if((m wrappedClusterer ! null
+wrappedcluste
+ceof OptionHandler))[
+result. addElement (new Option(","",
+" \oPtions specific to clusterer
++m_wrappedClusterer. getClass()
+e()+":"))
+sult. addA( Collections. list(((OptionHandler )m wrappedClusterer)
+t elements(
+a given list of op
+Valid
+inimum allowable standard deviation for normal density computati
+(default 1e-6)
+Clusterer to wrap
+(de
